@@ -1,9 +1,3 @@
-Options +FollowSymLinks
 RewriteEngine On
 
-<IfModule mod_rewrite.c>
-
-	# Страницы пользовательских ошибок
-	ErrorDocument 403 /lite/index.php
-
-</IfModule>
+Allow from all
